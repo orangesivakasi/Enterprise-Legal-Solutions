@@ -1,0 +1,495 @@
+
+body {
+  text-align: center;
+}
+
+p {
+  font-family: 'amaranth', cursive;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #0f3057;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Lobster', cursive;
+  font-size: 2.25rem;
+  line-height: 1.25;
+  padding-top: 10%;
+  color:  #0f3057;
+  
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 3% 15% 3%;
+}
+
+/* Sections */
+
+.colored-section {
+   background-color: #fff;
+}
+
+.white-section {
+  background-color: #ccafaf;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.logo-navbar{
+  height: 80px;
+  width: 180px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  font-family: 'Bebas Neue', cursive;
+  color:#0f3057;
+}
+
+.nav-link:hover{
+  color:#ccafaf;
+}
+
+.hamburger{
+  color:#23689b; 
+  font-size:28px;
+  outline-color: #23689b;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  
+  color: #222831;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+   width: 100%; 
+}
+
+/* Areas of Practice */
+
+.aop-em{
+  text-align: left;
+  padding: 0% 15% 0%;
+}
+
+
+.aop-heading{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  color: #222831;
+  text-align: left;
+  padding: 1% 15% 0% ;
+}
+
+.container-fluid-aop
+{
+  padding: 1% 15% 3%;
+  
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 10px;
+  /* margin-top: 1rem; */
+}
+
+.feature-box {
+  padding: 2.5%;
+}
+
+.icon {
+  color: #ccafaf; 
+}
+
+.icon:hover {
+  color: #222831;
+}
+
+/* About US */
+
+#aboutus{
+  background-color: #ccafaf;
+}
+
+.aboutusdisc{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.aboutusheading{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.75rem;
+  color: #0f3057;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.aboutusimg{
+ padding-top: 20px;
+ width: 120%;
+}
+
+
+/* Working principles */
+
+.wp-textleft{
+  font-family: 'Amaranth', sans-serif ;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: left;
+  text-justify: left;
+}
+
+.wp-textright{
+  font-family: 'Amaranth', sans-serif ;
+  font-weight: bold;
+  font-size: 1.35rem;
+  text-align: right;
+  /* text-justify: right; */
+}
+
+.wp-pleft{
+  font-family: 'Amaranth', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #0f3057;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+
+.wp-pright{
+  font-family: 'Amaranth', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #0f3057;
+  text-align: right;
+}
+
+.vl {
+  border-left: 3px solid #23689b;
+  height: 60px;
+}
+
+.vl1 {
+  border-left: 3px solid #23689b;
+  height: 110px;
+}
+
+.container-fluid-wp{
+  padding: 1% 15% ;
+}
+
+.wp-heading{
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  color: #222831;
+  text-align: left;
+  padding: 1% 15% ;
+} 
+
+hr{
+  width: 100%;
+  height: 0%;
+  border-top: 1px solid #222831;
+  border-style: dotted;
+  margin-bottom: 2%;
+  margin-top: 0%;
+}
+
+/* Testimonial section */
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.testimonial-heading{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  color: #222831;
+  text-align: left;
+  padding: 1% 15% ;
+}
+
+.testimonial-text{
+  font-family: 'ubuntu', sans-serif;
+  font-size: 2rem;
+
+}
+
+.testimonial-p{
+  font-family: 'ubuntu', sans-serif;
+  font-size: 1.5rem;
+}
+
+
+/* contact me */
+
+
+.contactme-heading{
+  font-family: 'Bebas Neue', cursive;;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.contactme{
+  padding: 1% 15%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+
+/* scroll back to top button */
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display:block;
+}
+
+/* Disclaimer modal */
+
+.disclaimerpara{
+  font-size: small;
+  color: #222831;
+}
+
+.disclaimerheading{
+  font-size: large;
+  color: black;
+}
+
+.disclaimertitle{
+  font-weight: bolder;
+  color: red;
+  text-align: center  ;
+}
+
+/* Partners  */
+
+.partners{
+  padding:2%;
+}
+
+.container-fluid-partner{
+  padding: 3% 2% 3%;
+}
+
+.partnerimg{
+  border-radius: 100%;
+}
+
+/* Contact us */
+
+.container-fluid-contactus{
+  padding: 3% 15% 3%;
+}
+
+.container-fluid-officeloc{
+   padding: 3% 15% 3%;
+   background-color: #ccafaf;
+   
+}
+
+.officeloc{
+  text-align: center;
+  width: 100%;
+}
+
+.officeaddress{
+  font-size: large;
+  margin: 0%;
+}
+
+.officeheading{
+  font-size:xx-large;
+}
+
+/* footer */
+
+.container-fluid-footer{
+  padding: 0% 15% 0%;
+}
+
+/* Media queries */
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media screen and (max-width:995px) and (min-width:750px) {
+
+.partners{
+  text-align: center;
+}
+
+}
+
+@media(max-width:520px){
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  .container-fluid{
+    padding: 5% 10% 7%;
+  }
+
+  .container-fluid-aop{
+    padding: 1% 10% 1%;
+  }
+
+  .logo-navbar{
+    height: 50px;
+  width: 160px;
+  }
+
+
+  .download-button{
+    width: 50%;
+    font-size: x-small;
+    margin: 0% 3% 3% 2%;
+  }
+
+  .aboutusimg{
+    width: 90%;
+    text-align: center;
+  }
+
+  .big-heading{
+    font-size: 1.3rem;
+    line-height: 1.35;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+
+  .testimonial-heading, .aop-heading, .wp-heading, .aboutusheading{
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .wp-textleft, .wp-textright{
+    font-size: 1rem;
+    text-align: center;
+    
+  }
+
+  .wp-pleft, .wp-pright{
+    font-size: 1rem;
+    padding-bottom: 1%;
+    text-align: justify;
+  }
+
+  .wpdivsleft{
+    padding: 0% 2% 1% 2%;
+    
+    text-align: justify;   
+  }
+
+  .wpdivsright{
+    padding: 0% 2% 1% 2%;
+    text-align: justify;   
+  }
+
+  .vl{
+    visibility:hidden;
+    position: absolute;
+  }
+
+  .vl1{
+    visibility:hidden;
+    position: absolute;
+  }
+
+  hr{
+    border-top: 2px solid #222831;
+  }
+
+  /* feature section */
+
+  .feature-title{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    }
+
+  .icon{
+    font-size: 3em;
+  }
+
+  /* testimonial section */
+
+  .testimonial-text{
+    font-size:1.5rem;
+  }
+
+  .testimonial-p{
+    font-size:1rem;
+  }
+
+}
+
+  

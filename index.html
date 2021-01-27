@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Legal Solutions</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- IcoFont -->
+  <link rel="stylesheet" href="icofont/icofont.min.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Java Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Javascript file -->
+  <script src="functions.js"></script>
+</head>
+
+<body>
+
+ <!-- IntroModal  -->
+
+ <div id="myModal" class="modal fade">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title disclaimertitle">DISCLAIMER</h5>
+              <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+          </div>
+          <div class="modal-body">
+              <p class="disclaimerheading">BY CLICKING ON THE “I AGREE” BUTTON BELOW, YOU AGREE THAT YOU HAVE CAREFULLY READ THE TERMS AND CONDITIONS BELOW AND AGREE WITH IT:- </p>
+              <p class="disclaimerpara">1.	THE CONTENT IN THIS WEBSITE IS GATHERED FROM INFORMATION OTHERWISE AVAILABLE IN THE PUBLIC DOMAIN.<br> 
+                2.	THIS WEBSITE IS INTENDED FOR INFORMATIONAL PURPOSES ONLY AND CANNOT BE CONSTRUED AS ADVICE OR REPRESENTATION IN ANY MANNER.ANY RELIANCE ON THE CONTENTS OF THE WEBSITE IS AT YOUR OWN RISK. 
+                <br>3.	ENTERPRISE LEGAL SOLUTIONS DISCLAIMS ALL WARRANTIES AND ASSUMES NO LIABILITY REGARDING THE CONTENT PUBLISHED IN THIS WEBSITE, INCLUDING WARRANITES FOR ACCURACY AND FITNESS FOR A PARTICULAR PURPOSE.
+                <br>4.	YOU HAVE VISITED THIS WEBSITE OF YOUR OWN ACCORD AND THERE HAS BEEN NO SOLICITATION, INDUCEMENT OR INVITATION IN ANY MANNER BY ENTERPRISE LEGAL SOLUTIONS OR ITS MEMBERS TO ESTABLISH A CLIENT ATTORNEY RELATIONSHIP.
+                <br>5.	YOU SHALL BE RESPONSIBLE FOR ENSURING THAT YOUR ACCESS TO THIS WEBSITE IS IN ACCORDANCE WITH THE LAWS OF YOUR COUNTRY.
+                <br>6.	ENTERPRISE LEGAL SOLUTIONS IS NOT RESPONSIBLE FOR ANY OF YOUR PERSONAL DATA THAT YOU MAY SHARE WITH ENTERPRISELEGAL.IN OR ANY THIRD PARTY WEBLINKS THAT YOU MAY VISIT THROUGH ENTERPRISELEGAL.IN. ANY SHARING OF PERSONAL DATA IS AT YOUR OWN RISK. 
+                </p>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">I Agree</button>
+                <button type="button" class="btn btn-danger" data-target="modal">I Disagree</button>
+              
+          </div>
+      </div>
+  </div>
+</div>
+
+  <!-- Navigation Bar & Front Heading -->
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg">
+
+        <a class="navbar-brand" href=""><img class="logo-navbar" src="images/logo.png" alt="ELS-logo"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars hamburger"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="menufont nav-link" href="#aboutus">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#practiceareas">Areas of Practice</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#workingprinciples">Working Principles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactus">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">A Firm dedicated to provide corporate solutions and dispute resolution</h1>
+          <a href="mailto:mail@enterpriselegal.com" target="_blank" class="btn download-button btn-primary btn-md"><i class="fas fa-envelope fs-xs"></i> Mail us</a>
+          <a href="tel:+919746169762" target="_blank" class="btn download-button btn-success btn-md"><i class="fas fa-mobile"></i> Call us</a>
+          <a href="" target="_blank" class="btn download-button btn-secondary btn-md"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div> 
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/title-image.png" alt="Court symbol">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- About Us -->
+
+  <section class="about-us" id="aboutus">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="aboutusheading">About Us</h2>
+          <p class="aboutusdisc">Enterprise Legal Solutions was formed to provide clients with prompt, responsive and responsible legal advice and solutions. The Firm is founded by Mr. Rahul Kandampully and Ms. Raaga Ramalakshmi, both of whom have a decade of practice particularly in the field of Litigation, Corporate and Intellectual Property Laws. The Firm has now successfully branched on to Maritime, Arbitration, Environment, Tax and Real Estate Solutions with local partners. The firm currently practices in the High Courts and District Courts of the State of Tamil Nadu & Kerala, India.</p>
+        </div>
+        <div class="col-md-6">
+          <img class="aboutusimg" src="images/aboutus.png" alt="About Us">
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- Practice Areas -->
+
+  <section class="colored-section" id="practiceareas">
+
+    <div class="aop-heading col-lg-12">Areas of Practice</div>
+    <div class="aop-em"><em>Click Areas to proceed further</em></div>
+
+    <div class="container-fluid-aop">
+      <div class="row">
+
+        <div class="feature-box col-lg-4 col-md-6">
+          <button type="button" class="btn btn-outline-light batan" data-toggle="modal" data-target="#litigation">
+            <i class="icon fas fa-balance-scale fa-4x"></i>
+          </button>
+          <h3 class="feature-title">LITIGATION</h3>
+          <p>Civil, Criminal, Consumer, Banking, Company, Tax, Environment</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-6">
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#corporate">
+            <i class="icon fas fa-bullseye fa-4x"></i>
+          </button>
+          <h3 class="feature-title">CORPORATE</h3>
+          <p>Incorporation, Registration, Agreements, Statutory Compliance, Litigation, Due Diligence, CSR</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-6">
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#banking">
+            <i class="icon icofont-institution icofont-4x"></i>
+          </button>
+          <h3 class="feature-title">BANKING</h3>
+          <p>Mortgage Deed, Loan Agreements, Registration, SARFAESI, Litigation</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-6">
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#tax">
+            <i class="icon icofont-money-bag icofont-4x"></i>
+          </button>
+          <h3 class="feature-title">TAX</h3>
+          <p>Compliance, Registration Assistance and Litigation</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-6">
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#realestate">
+            <i class="icon fas fa-home fa-4x"></i>
+          </button>
+          <h3 class="feature-title">REAL ESTATE</h3>
+          <p>Agreements, Registration, Statutory Compliance, Litigation</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-6">
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#ip">
+            <i class="icon icofont-unique-idea icofont-4x"></i>
+          </button>
+          <h3 class="feature-title">INTELLECTUAL PROPERTY</h3>
+          <p>Trademarks, Copyrights, Patents (associated) and Geographical Indication (associated)</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-6">
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#environment">
+            <i class="icon icofont-tree icofont-4x" style="margin-bottom: 1rem;"></i>
+          </button>
+          <h3 class="feature-title">ENVIRONMENT</h3>
+          <p>Compliance, Litigation (National Green Tribunal and High Court)</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-6">
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#arbitration">
+            <i class="icon icon fas fa-handshake fa-4x"></i>
+          </button>
+          <h3 class="feature-title">ARBITRATION</h3>
+          <p>Agreements, Litigation, Mediation, Conciliation</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-6">
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#maritime">
+            <i class="icon icofont-ship icofont-4x"></i>
+          </button>
+          <h3 class="feature-title">MARITIME</h3>
+          <p>Agreements, Settlement, Litigation, Arbitration</p>
+        </div>
+
+        <div class="feature-box col-lg-6 col-md-6">
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#registration">
+            <i class="icon icofont-law-document icofont-4x"></i>
+          </button>
+          <h3 class="feature-title">REGISTRATION</h3>
+          <p>Wills, Power of Attorney, Real Estate, Agreements</p>
+        </div>
+
+        <div class="feature-box col-lg-6 col-md-6">
+
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#labourservice">
+            <i class="icon icofont-labour icofont-4x"></i>
+          </button>
+          <h3 class="feature-title">LABOUR AND SERVICE</h3>
+          <p>Compliance, Agreements, Litigation.</p>
+        </div>
+
+<!-- Modals -->
+
+<!-- Litigation -->
+<div class="modal" id="litigation" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 feature-title">Litigation</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <i class="icon fas fa-balance-scale fa-4x" style="color: #23689b;"></i>
+        <p>Civil, Criminal, Consumer, Banking, Company, Tax, Environment</p>
+        <a href="mailto:info@enterpiselegal.in" target="_blank" class="btn btn-primary">Need Help ?</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Corporate -->
+<div class="modal" id="corporate" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 feature-title">CORPORATE</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <i class="icon fas fa-bullseye fa-4x" style="color: #23689b;"></i>
+        <p>Incorporation, Registration, Agreements, Statutory Compliance, Litigation, Due Diligence, CSR</p>
+        <a href="mailto:info@enterpiselegal.in" target="_blank" class="btn btn-primary">Need Help ?</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Banking -->
+<div class="modal" id="banking" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 feature-title">BANKING</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <i class="icon icofont-institution icofont-4x" style="color: #23689b;"></i>
+        <p>Mortgage Deed, Loan Agreements, Registration, SARFAESI, Litigation</p>
+        <a href="mailto:info@enterpiselegal.in" target="_blank" class="btn btn-primary">Need Help ?</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tax -->
+<div class="modal" id="tax" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 feature-title">TAX</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <i class="icon icofont-money-bag icofont-4x" style="color: #23689b;"></i>
+        <p>Compliance, Registration Assistance and Litigation</p>
+        <a href="mailto:info@enterpiselegal.in" target="_blank" class="btn btn-primary">Need Help ?</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Real Estate -->
+<div class="modal" id="realestate" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 feature-title">REAL ESTATE</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <i class="icon fas fa-home fa-4x" style="color: #23689b;"></i>
+        <p>Agreements, Registration, Statutory Compliance, Litigation</p>
+        <a href="mailto:info@enterpiselegal.in" target="_blank" class="btn btn-primary">Need Help ?</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ip -->
+<div class="modal" id="ip" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 feature-title">INTELLECTUAL PROPERTY</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <i class="icon icofont-unique-idea icofont-4x" style="color: #23689b;"></i>
+        <p>Trademarks, Copyrights, Patents (associated) and Geographical Indication (associated)</p>
+        <a href="mailto:info@enterpiselegal.in" target="_blank" class="btn btn-primary">Need Help ?</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- environment -->
+<div class="modal" id="environment" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 feature-title">ENVIRONMENT</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <i class="icon icofont-tree icofont-4x" style="margin-bottom: 1rem; color:#23689b"></i>
+        <p>Compliance, Litigation (National Green Tribunal and High Court)</p>
+        <a href="mailto:info@enterpiselegal.in" target="_blank" class="btn btn-primary">Need Help ?</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Arbitration -->
+<div class="modal" id="arbitration" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 feature-title">ARBITRATION</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <i class="icon icon fas fa-handshake fa-4x" style="color: #23689b;"></i>
+        <p>Agreements, Litigation, Mediation, Conciliation</p>
+        <a href="mailto:info@enterpiselegal.in" target="_blank" class="btn btn-primary">Need Help ?</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Maritime -->
+<div class="modal" id="maritime" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 feature-title">MARITIME</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <i class="icon icofont-ship icofont-4x" style="color: #23689b;"></i>
+        <p>Agreements, Settlement, Litigation, Arbitration</p>
+        <a href="mailto:info@enterpiselegal.in" target="_blank" class="btn btn-primary">Need Help ?</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Registration -->
+<div class="modal" id="registration" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 feature-title">REGISTRATION</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <i class="icon icofont-law-document icofont-4x" style="color: #23689b;"></i>
+        <p>Wills, Power of Attorney, Real Estate, Agreements</p>
+        <a href="mailto:info@enterpiselegal.in" target="_blank" class="btn btn-primary">Need Help ?</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Labour & Service -->
+<div class="modal" id="labourservice" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 feature-title">LABOUR AND SERVICE</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <i class="icon icofont-labour icofont-4x" style="color: #23689b;"></i>
+        <p>Compliance, Agreements, Litigation.</p>
+        <a href="mailto:info@enterpiselegal.in" target="_blank" class="btn btn-primary">Need Help ?</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Working Principles -->
+
+  <section class="white-section" id="workingprinciples">
+
+    <div class="wp-heading col-lg-12">Working Principles</div>
+
+    <div class="container-fluid-wp">
+      <div class="row">
+        <div class="wpdivsleft col-lg-3 col-md-3">
+          <h2 class="wp-textleft">HOLISTIC</h2>
+          <h2 class="wp-textleft">APPROACH</h2>
+        </div>
+        <div class="vl"></div>
+        <div class="col-lg-8">
+          <p class="wp-pleft">We strive to provide all rounded approach to legal needs of the client including development of processes and templates.</p>
+        </div>
+        <hr>
+
+        
+        
+        <div class="col-lg-8 col-md-6">
+          <p class="wp-pright">We  provide a transparent structure of the approach undertaken by our team to a work product from its inception to completion which enables the client to be well informed at all times of the exact status of the work product at any point in time</p>
+        </div>
+        <div class="vl1"></div>
+        <div class="wpdivsright col-lg-3 ">
+          <h2 class="wp-textright" >PROMPTNESS</h2>
+          <h2 class="wp-textright" >AND</h2>
+          <h2 class="wp-textright" >RESPONSIVENESS</h2>
+          <h2 class="wp-textright">IN DELIVERY</h2>
+        </div>
+
+        <hr>
+        <div class="wpdivsleft col-lg-3">
+          <h2 class="wp-textleft">RESPONSIBLE</h2>
+          <h2 class="wp-textleft">SOLUTIONS</h2>
+        </div>
+        <div class="vl"></div>
+        <div class="col-lg-8">
+          <p class="wp-pleft">The Team believes in doing indepth research and analysis of each and every aspect of the work product before issuing the deliverable.</p>
+        </div>   
+        <hr>
+        
+        
+        
+        <div class="col-lg-8">
+          <p class="wp-pright">The Team banks on its extensive knowledge and experience in different fields of laws to provide a cohesive and detailed view in each subject before it.</p>
+        </div>
+        <div class="vl"></div>
+        <div class="wpdivsleft col-lg-3">
+          <h2 class="wp-textright">EXPERTISE</h2>
+          <h2 class="wp-textright">IN SUBJECTS</h2>
+        </div>
+      
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+    <div class="testimonial-heading col-lg-12">News & Events</div>
+
+    <div id="wp-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">HOLISTIC APPROACH</h2>
+          <p class="testimonial-p">We strive to provide all rounded approach to legal needs of the client including development of processes and templates.</p>
+          <em> - Ragav, Sivakasi.</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">PROMPTNESS AND RESPONSIVENESS IN DELIVERY</h2>
+          <p class="testimonial-p">We  provide a transparent structure of the approach undertaken by our team to a work product from its inception to completion which enables the client to be well informed at all times of the exact status of the work product at any point in time</p>
+          <em> - Ramakrishnan, Chennai.</em>
+        </div>
+              
+      </div>
+      <a class="carouselprevnext carousel-control-prev" href="#wp-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carouselprevnext carousel-control-next" href="#wp-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Partners -->
+
+  <section class="contactme white-section" id="partners">
+
+      <h3 class="contactme-heading">Partners</h3>
+       <div class="container-fluid">
+         <div class="row">
+           <div class="partners col-md-6">
+             <img class="partnerimg" src="images/Rahul.png" alt="Rahul Kandampully" >
+             <h4>Rahul Kandampully</h4>
+             <em>Partner</em><br>
+             <a href="mailto:rahul.kandampully@gmail.com" target="_blank" class="btn download-button btn-primary btn-md"><i class="fas fa-envelope fs-xs"></i> Contact Rahul</a>
+         
+           </div>
+           <div class="partners col-md-6">
+            <img class="partnerimg" src="images/raaga.png" alt="Raaga Ramalakshmi">
+            <h4>Raaga Ramalakshmi</h4>
+            <em>Partner</em><br>
+            <a href="mailto:raaga.rr@gmail.com" target="_blank" class="btn download-button btn-success btn-md"><i class="fas fa-envelope fs-xs"></i> Contact Raaga</a>
+         </div>
+       </div>
+      </div>
+   
+  </section>
+
+  <!-- Contact us -->
+
+  <section id="contactus" class="colored-section">
+
+    <div class="container-fluid-contactus">
+      <div class="row">
+        <div class="contactus col-lg-12">
+          <h2>We'd love to hear from you</h2>
+          <p>Whether you have a question about our working policies, need our assistance in legal way or anything else, we are here to answer all your questions</p>
+          <!-- <button class="btn btn-primary btn-md" href="mailto:thamarayan@gmail.com">Get in touch</button> -->
+          <a href="mailto:info@enterpiselegal.in" target="_blank" class="btn btn-primary">Get in touch</a>
+        </div>
+      </div>  
+    </div>
+
+    <div class="container-fluid-officeloc">
+      <div class="row">
+        <div class="officeloc">
+          <h2 class="officeheading">Office Location</h2>
+          <h3><i class="fas fa-map-marker-alt fa-xs "></i> Kerala, India </h3>
+          <p class="officeaddress">
+          2nd floor, opp. St.Joseph Church <br>
+          K.P. Vallon Road <br>
+          Kadavanthara</p>
+        </div>
+      </div>  
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+  <footer class="colored-section" id="footer">
+    <div class="container-fluid-footer">
+
+      <i class="social-icon fab fa-linkedin"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2018 Enterprise Legal Solutions</p>
+    </div>
+  </footer>
+
+  <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+
+
+</body>
+
+</html>
